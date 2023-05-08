@@ -1,0 +1,35 @@
+$primary-color: grey;
+$secondary-color: orange;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin transition-ease{
+  transition: all 0.5s ease-in-out;
+}
+@mixin flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@mixin space-between{
+justify-content: space-between;
+}
+@mixin image{
+ img{
+
+  width: 400px;
+  height: 300px;
+ }
+  
+}
+
+@mixin mobile{
+  @media (max-width < 800px){
+    @content;
+  }
+}

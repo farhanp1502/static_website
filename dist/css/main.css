@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: plum;
+}
+header .navbar ul li a {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+header .navbar ul li a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+header .navbar button {
+  background-color: purple;
+  border: none;
+}
+header .navbar a {
+  color: purple;
+}
+
+.main {
+  justify-content: left;
+  margin-top: 0;
+  width: auto;
+  height: 710px;
+  font-weight: 900;
+  font-size: 50px;
+}
+.main .main1 {
+  padding-top: 280px;
+  padding-left: 18%;
+  color: purple;
+  font-weight: 200;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: auto;
+  color: white;
+  background-color: rgb(61, 6, 61);
+}
+.main2 img {
+  width: 400px;
+  height: 300px;
+}
+.main2 h3 {
+  color: rgb(196, 132, 13);
+}
+.main2 .main2_2 {
+  margin-left: 50px;
+  justify-content: space-between;
+}
+.main2 .main2_2 .main2_item4 button {
+  background-color: orange;
+  padding: 10px 50px;
+  font-size: x-large;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 30px;
+}
+.main2 .main2_2 .main2_item4 button:hover {
+  background-color: red;
+}
+
+.main3 {
+  background-color: rgba(163, 98, 141, 0.856);
+  padding: 20px;
+}
+
+.main3 h2 {
+  padding: 30px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: purple;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.main3 .main3_item2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main3 .main3_item2 .main3_item {
+  width: auto;
+  height: 500px;
+  margin-left: 40px;
+}
+.main3 .main3_item2 .main3_item h5 {
+  color: purple;
+  text-transform: uppercase;
+}
+.main3 .main3_item2 .main3_item p {
+  color: white;
+}
+.main3 .main3_item2 .main3_item img {
+  width: 400px;
+  height: 300px;
+}
+
+.main4 {
+  padding: 40px;
+  background-color: rgb(61, 6, 61);
+}
+.main4 h3 {
+  padding: 40px;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: rgb(196, 132, 13);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.main4 .main4_item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main4 .main4_item img {
+  width: 400px;
+  height: 300px;
+}
+.main4 .main4_item h4 {
+  color: rgba(163, 98, 141, 0.856);
+  text-transform: capitalize;
+}
+.main4 .main4_item p {
+  color: white;
+}
+.main4 .main4_item .main4_item2 {
+  margin-left: 50px;
+}
+
+.main4 .main4_item button {
+  background-color: orange;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+.main4 .main4_item button:hover {
+  background-color: red;
+}
+
+.main5 {
+  background-color: rgba(163, 98, 141, 0.856);
+  background-size: cover;
+}
+.main5 h4 {
+  color: purple;
+  padding: 40px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.main5 .main5_1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main5 .main5_item {
+  margin: 20px;
+}
+.main5 .main5_item .card-title {
+  color: rgb(199, 16, 16);
+  font-weight: 100;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+.main5 .main5_item .card-subtitle {
+  font-size: larger;
+  font-weight: 200;
+}
+
+.main6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+}
+.main6 h4 {
+  padding: 20px;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: red;
+  font-weight: 800;
+}
+.main6 h5 {
+  text-transform: capitalize;
+  padding: 20px;
+  font-weight: 400;
+}
+.main6 input {
+  width: 400px;
+  height: 50px;
+  border: 2px solid #ccc;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+.main6 button {
+  width: 400px;
+  height: 50px;
+  background-color: rgb(43, 167, 84);
+  padding: 10px 25px;
+  border: none;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: grey;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer svg {
+  margin: 20px;
+}
+footer svg:hover {
+  cursor: pointer;
+}
+footer ul {
+  margin-top: 20px;
+}
+footer ul li {
+  margin-left: 40px;
+}
+footer li {
+  list-style-type: none;
+}
+footer ul li a {
+  text-decoration: none;
+  font-size: x-large;
+  text-transform: capitalize;
+  color: white;
+}
+footer ul li a:hover {
+  color: purple;
+}
+
+@media (max-width < 800px) {
+  body {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=main.css.map */

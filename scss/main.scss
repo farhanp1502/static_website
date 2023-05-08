@@ -1,0 +1,269 @@
+@import "style";
+header{
+  background-color: plum;
+  .navbar ul li a{
+    display: flex;
+    justify-content: center;
+   color: white;
+   &:hover{
+    color: purple;
+    text-decoration: underline;
+    
+   }
+  }
+  .navbar button{
+    background-color: purple;
+    border: none;
+
+  }
+  .navbar a{
+    color: purple;
+  }
+
+}
+.main {
+  .main1{
+    padding-top: 280px; 
+  padding-left: 18%;
+color: purple;
+font-weight: 200;
+font-family:'Times New Roman', Times, serif
+}
+
+  justify-content: left;
+// align-items: ;
+  margin-top: 0;
+  width: auto;
+  height: 710px;
+  font-weight: 900;
+  font-size: 50px;
+  
+}
+
+.main2 {
+  @include flex;
+  height: 700px;
+  width: auto;
+  color: white;
+  background-color: rgb(61, 6, 61);
+
+  @include image;
+  h3 {
+    color: rgb(196, 132, 13);
+  }
+  .main2_2 {
+    margin-left: 50px;
+    @include space-between;
+  }
+  .main2_2 {
+    .main2_item4 {
+      button {
+        background-color: orange;
+        padding: 10px 50px;
+        font-size: x-large;
+        text-transform: capitalize;
+        border: none;
+        border-radius: 30px;
+        &:hover {
+          background-color: red;
+        }
+      }
+    }
+  }
+}
+
+.main3 {
+  background-color: rgba(163, 98, 141, 0.856);
+  // text-align: center;
+  padding: 20px;
+}
+.main3 {
+  h2 {
+    padding: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: purple;
+    // text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .main3_item2 {
+    @include flex;
+
+    .main3_item {
+      h5 {
+        color: purple;
+        text-transform: uppercase;
+      }
+      p {
+        color: white;
+      }
+      @include image;
+
+      width: auto;
+      height: 500px;
+      margin-left: 40px;
+    }
+  }
+}
+
+.main4 {
+  padding: 40px;
+  background-color: rgb(61, 6, 61);
+  h3 {
+    padding: 40px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(196, 132, 13);
+    // text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+
+  .main4_item {
+    @include image;
+    @include flex;
+    h4 {
+      color: rgba(163, 98, 141, 0.856);
+      text-transform: capitalize;
+    }
+    p {
+      color: white;
+    }
+
+    .main4_item2 {
+      margin-left: 50px;
+    }
+  }
+}
+.main4 {
+  .main4_item {
+    button {
+      background-color: orange;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      &:hover {
+        background-color: red;
+      }
+    }
+  }
+}
+
+.main5 {
+  background-color: rgba(163, 98, 141, 0.856);
+  background-size: cover;
+  h4 {
+    color: purple;
+    padding: 40px;
+    font-size: 40px;
+    // text-align: center;
+    text-transform: uppercase;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  }
+  .main5_1 {
+    @include flex;
+  }
+  .main5_item {
+    .card-title{
+      color: rgb(199, 16, 16);
+      font-weight: 100;
+      font-size: 60px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .card-subtitle{
+      font-size: larger;
+      font-weight: 200;
+    }
+    margin: 20px;
+  }
+}
+
+.main6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+
+  h4 {
+    padding: 20px;
+    font-size: 20px;
+    // text-align: center;
+    text-transform: uppercase;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    font-weight: 800;
+  }
+  h5 {
+    text-transform: capitalize;
+    padding: 20px;
+    font-weight: 400;
+  }
+
+  input {
+    width: 400px;
+    height: 50px;
+    border: 2px solid #ccc;
+    margin-bottom: 20px;
+  padding-left: 10px;
+  
+  }
+  button {
+    width: 400px;
+    height: 50px;
+    background-color: rgb(43, 167, 84);
+    padding: 10px 25px;
+    border: none;
+text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: x-large;
+    text-transform: uppercase;
+  }
+}
+
+footer {
+  background-color: grey;
+color: white;
+  @include flex;
+flex-direction: column;
+  svg {
+    margin: 20px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  ul {
+    margin-top: 20px;
+
+  }
+  ul li {
+    // display: inline-block;
+    // text-align: center;
+    margin-left: 40px;
+  }
+  li {
+    list-style-type: none;
+  }
+  ul li a {
+    text-decoration: none;
+    font-size: x-large;
+    text-transform: capitalize;
+    color: white;
+    &:hover {
+      color: purple;
+  }
+ 
+}
+
+}
+
+
+body{
+  @include mobile{
+    flex-direction: column;
+  }
+}
+  
